@@ -9,6 +9,9 @@ Create a database, import `notes_2018-12-10.sql`
 
 See connection.js for the Db connection settings
 
+### Npm
+`npm i`
+
 ### To run
 `npm start`
 
