@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    h1= title
+    .main.container
+        if message
+            div.alert.alert-success= message
+        .row
+            .col-md-6.col-md-offset-3
+                h3.display-6.m-b-2 Add new headline
+                form(method='POST' action='/')
+                    div.form-group
+                        label(for='headline') Note headline
+                        input.form-control(type='text' id='headline' placeholder='headline' name='headline')
+                    div.form-group
+                        label(for='userID') userID
+                        input.form-control(type='text' id='userID' placeholder='userID' name='userID')
+                    button.btn.btn-primary(type='submit') Add item
