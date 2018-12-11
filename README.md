@@ -9,13 +9,15 @@ Create a database, import `notes_2018-12-10.sql`
 
 See connection.js for the Db connection settings
 
-### See second repo for the Swift iOS app
-
 ### To run
 `npm start`
 
 In browser 
 `http://localhost:3000`
+
+### See second repo for the Swift iOS app
+https://github.com/GlebRed/express-socket-swift-ios-proj
+
 
 ### To reproduce the skeleton
 `$ npm install -g express-generator`
